@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: aboslute;
+    position: absolute;
     left: 5%;
 }
 
