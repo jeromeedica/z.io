@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Churchland biography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="btn-section">
+        <button id="btn">open</button>
+    </div>
+
+   <div class="main-container">
+      <div class="box-container">
+          <button id="close" ><img src="./assets/close.png" alt=""></button>
+         <div class="heading-section">
+           <h1>Paul Montgomery Churchland</h1>
+            <h2>October 21,1942</h2>
+            <h3>Canadian Philosophers</h3>
+            <p>Paul Churchland is the husband of philosophers Patricia Churchland,and it has been noted that , "Their work is so similar that they are sometimes discussed,in journal and books,as one person."The Churchland are the parents of two children,Mark Churchland and Anne Churchland."</p> 
+         </div> 
+         <div class="img_heading-section">
+            <img src="http://open-mind.net/about/Churchland2.jpg" alt="">
+            <p>
+              Canadian philosophers known for his studies in neurophilosophy and the philospohy of mind.  
+              <br>
+              Paul Churchland Biography
+            </p> 
+         </div>
+         <div class="paragraph-section">
+           <p>
+             Paul Churchland (born 1942) is a Canadian philosopher and author. He is currently the Emeritus Professor of Philosophy at the University of California, San Diego. His research focuses on epistemology, perception, philosophy of cognitive science, philosophy of mind, philosophy of neuroscience, and philosophy of science. EARLY LIFE AND EDUCATION Paul Montgomery Churchland was born on October 21, 1942 in Vancouver, Canada. He attended the University of British Columbia, from where he received a degree in Bachelor of Arts in 1964. Later, he the University of Pittsburgh, Pittsburgh, Pennsylvania, and received a Ph.D. in 1969. With American philosopher Wilfrid Sellars as his advisor, his dissertation during the Ph.D. was "Persons and P-Predicates." CAREER While working towards his Ph.D., Churchland taught philosophy at the University of Toronto from 1967–69. After receiving the degree in 1969, he began teaching at the University of Manitoba in Manitoba, Canada, as Assistant Professor. In 1974, he was promoted to Associate Professor and in 1979, he became a full professor. After working with the University of Toronto for fifteen years, in 1984, he accepted the "Valtz Family Endowed Chair" in Philosophy at the University of California, San Diego, California (UCSD,) within the Institute for Neural Computation and its Cognitive Science Faculty. He has since been working with UCSD. He remained on the Valtz Family Endowed Chair in Philosophy through 2011. In the years 1986-1990, he also served as Department Chair at the university. For over three decades, Paul Churchland has been a provocative and controversial philosopher of mind and of science. He is most famous as an advocate of 'eliminative materialism', whereby he suggests that our commonsense understanding of our own minds is radically defective and that the science of brain demonstrates this (just as an understanding of physics reveals that our commonsense understanding of a flat and motionless earth is similarly false). This collection offers an introduction to Churchland's work, as well as a critique of some of his most famous philosophical positions. Including contributions by both established and promising young philosophers, it is intended to complement the growing literature on Churchland, focusing on his contributions in isolation from those of his wife and philosophical partner, Patricia Churchland, as well as on his contributions to philosophy as distinguished from those to Cognitive Science. 
+           </p> 
+         </div> 
+      </div> 
+   </div> 
+
+   <script>
+       let open_btn = document.getElementById('btn');
+       let close_btn = document.getElementById('close');
+
+       let boxContainer = document.querySelector('.box-container')
+       const mainContainer = document.querySelector('.main-container')
+       const btnSection = document.querySelector('.btn-section')
+
+       open_btn.addEventListener('click', () => {
+           mainContainer.style.left = '0'
+           open_btn.style.display = 'none'
+       })
+
+       close_btn.addEventListener('click', () => {
+           mainContainer.style.left = '2000px'
+           open_btn.style.display = 'block'
+       })
+
+   </script>
+</body>
+</html>
